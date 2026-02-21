@@ -35,7 +35,3 @@ export const routes = [
         }
     }
 ]
-// aqui vamos criar um array de rotas para a aplicação, 
-// cada rota vai ser um objeto com as seguintes propriedades:
-//  method = método HTTP (GET, POST, PUT, DELETE), path = caminho
-//  e handler =  o que vai acontecer quando a rota for chamada 
