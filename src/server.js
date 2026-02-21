@@ -25,8 +25,6 @@ const server = http.createServer(async (req, res) => {
       name,
       email
     }
-    // aqui vamos fazer um tratamento para fazer um alto incremento de id, para diferenciar os users 
-    // importamos o metodo randomUUID 
 
     await database.insert('users', user)
 
